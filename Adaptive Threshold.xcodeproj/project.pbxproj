@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99031EA01F09DA6F007E8484 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99A920D71EF5ADC500767F1E /* main.cpp */; };
+		99F041AB1F06D0320006CDEE /* PGM8_loadsave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99F041A91F06D0320006CDEE /* PGM8_loadsave.cpp */; };
+		99F041AC1F06D19C0006CDEE /* adaptive_thresh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99AC531A1EF37EA3003DC818 /* adaptive_thresh.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		99A920D21EF5ADC500767F1E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		99A920D41EF5ADC500767F1E /* Carnegie Robotics Coding Challenge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Carnegie Robotics Coding Challenge"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A920D71EF5ADC500767F1E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		99AC531A1EF37EA3003DC818 /* adaptive_thresh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = adaptive_thresh.cpp; sourceTree = "<group>"; };
+		99AC531B1EF37EA3003DC818 /* adaptive_thresh.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = adaptive_thresh.hpp; sourceTree = "<group>"; };
+		99F041A91F06D0320006CDEE /* PGM8_loadsave.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PGM8_loadsave.cpp; sourceTree = "<group>"; };
+		99F041AA1F06D0320006CDEE /* PGM8_loadsave.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PGM8_loadsave.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99A920D11EF5ADC500767F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99A920D51EF5ADC500767F1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99A920D41EF5ADC500767F1E /* Carnegie Robotics Coding Challenge */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99AC53111EF378B1003DC818 = {
+			isa = PBXGroup;
+			children = (
+				99A920D71EF5ADC500767F1E /* main.cpp */,
+				99AC531B1EF37EA3003DC818 /* adaptive_thresh.hpp */,
+				99AC531A1EF37EA3003DC818 /* adaptive_thresh.cpp */,
+				99F041AA1F06D0320006CDEE /* PGM8_loadsave.hpp */,
+				99F041A91F06D0320006CDEE /* PGM8_loadsave.cpp */,
+				99A920D51EF5ADC500767F1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99A920D31EF5ADC500767F1E /* Carnegie Robotics Coding Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A920D91EF5ADC500767F1E /* Build configuration list for PBXNativeTarget "Carnegie Robotics Coding Challenge" */;
+			buildPhases = (
+				99A920D01EF5ADC500767F1E /* Sources */,
+				99A920D11EF5ADC500767F1E /* Frameworks */,
+				99A920D21EF5ADC500767F1E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Carnegie Robotics Coding Challenge";
+			productName = "Carnegie Robotics Coding Challenge";
+			productReference = 99A920D41EF5ADC500767F1E /* Carnegie Robotics Coding Challenge */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99AC53121EF378B1003DC818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					99A920D31EF5ADC500767F1E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 99AC53151EF378B1003DC818 /* Build configuration list for PBXProject "Adaptive Threshold" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99AC53111EF378B1003DC818;
+			productRefGroup = 99A920D51EF5ADC500767F1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99A920D31EF5ADC500767F1E /* Carnegie Robotics Coding Challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99A920D01EF5ADC500767F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99031EA01F09DA6F007E8484 /* main.cpp in Sources */,
+				99F041AC1F06D19C0006CDEE /* adaptive_thresh.cpp in Sources */,
+				99F041AB1F06D0320006CDEE /* PGM8_loadsave.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		99A920DA1EF5ADC500767F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		99A920DB1EF5ADC500767F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		99AC53161EF378B2003DC818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		99AC53171EF378B2003DC818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99A920D91EF5ADC500767F1E /* Build configuration list for PBXNativeTarget "Carnegie Robotics Coding Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A920DA1EF5ADC500767F1E /* Debug */,
+				99A920DB1EF5ADC500767F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99AC53151EF378B1003DC818 /* Build configuration list for PBXProject "Adaptive Threshold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99AC53161EF378B2003DC818 /* Debug */,
+				99AC53171EF378B2003DC818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99AC53121EF378B1003DC818 /* Project object */;
+}
